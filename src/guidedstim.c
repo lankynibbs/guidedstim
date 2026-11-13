@@ -69,7 +69,7 @@ static void SeafKilled(HfMod* mod, const HfKillEvent* event, void* user)
     (void)mod; (void)user;
     for (int i = 0; i < g_seafCount; i++)
     {
-        if (g_seaf[i] == event->entity)
+        if (g_seaf[i] == event->victim)
         {
             g_seaf[i] = g_seaf[--g_seafCount];
             HF_API(mod)->log(mod, "Guided Stim: SEAF removed (now %d)", g_seafCount);
