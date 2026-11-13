@@ -8,7 +8,7 @@ HellForge lets you run your own local copy of the game with mods. This repo hold
 
 Adds a new secondary, the **P-11G Guided Stim Pistol**, next to the vanilla P-11 in the armory (the vanilla one is left alone). It's a copy of the P-11, so HellForge only gives it to players whose synced account owns the Chemical Agents warbond.
 
-- **Guided darts.** P-11G darts home in on the nearest other Helldiver in a 35-degree cone within 60 m (never on enemies), aimed at chest height. They also fly 1.6x faster with a quarter of the gravity.
+- **Guided darts.** P-11G darts home in on the nearest other Helldiver in a 60-degree cone within 60 m (never on enemies), aimed at chest height. They also fly 1.6x faster with a quarter of the gravity.
 - **Medic's kickback.** When a squadmate gets a stim-sized heal (25+) while you have the P-11G out, you heal 15 yourself; a big heal (75+) also mends both your legs. Each one is logged with a per-mission counter.
 
 Tuning values are `#define`s at the top of `src/guidedstim.c`. `hellforge-data.json` gives the P-11G its own copy of the P-11's model. Needs HellForge mod SDK 11 or later; guidance works in multiplayer lobbies too.
