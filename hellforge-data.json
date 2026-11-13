@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "patches": [
+    {
+      "archives": ["2844da91583db0f4"],
+      "resources": [
+        {
+          "type": "unit",
+          "copy": "0xD6B1FB05B9109353",
+          "name": "lankynibbs/guidedstim/stim_pistol_guided"
+        }
+      ]
+    }
+  ]
+}
