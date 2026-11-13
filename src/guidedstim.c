@@ -163,7 +163,8 @@ HF_MOD_EXPORT int hellforge_mod_init(const HfApi* hf, HfMod* mod)
     guided.designation = "P-11G";
     guided.name = "Guided Stim Pistol";
     guided.description = "A P-11 Stim Pistol with a friend-seeking guidance chip. Its darts find the nearest "
-        "Helldiver in front of you, fly faster and flatter, and every patched-up squadmate gives the medic a little boost too.";
+        "Helldiver in front of you, fly faster and flatter, and every patched-up squadmate gives the medic a little boost too. "
+        "The usual guided lock-on reticle will not appear, but the darts are still guided after you fire.";
     g_guidedId = hf->add_weapon(mod, &guided);
     hf->log(mod, g_guidedId ? "Guided Stim: P-11G Guided Stim Pistol is loadout item %08x" : "Guided Stim: the P-11G was not added", g_guidedId);
     if (g_guidedId == 0) return 1;
