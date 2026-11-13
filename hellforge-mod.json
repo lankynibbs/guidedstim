@@ -2,7 +2,7 @@
   "format": 1,
   "id": "lankynibbs.guidedstim",
   "name": "Guided Stim",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Guided Stim: adds the P-11G Guided Stim Pistol, a P-11 whose darts home in on your squadmates, fly faster and flatter, and give the medic a small heal for each patch-up. Needs Chemical Agents on your synced account.",
   "icon": "images/icon.png",
   "url": "https://github.com/lankynibbs/guidedstim",
