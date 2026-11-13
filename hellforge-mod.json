@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "id": "lankynibbs.guidedstim",
+  "name": "Guided Stim",
+  "version": "0.1.0",
+  "description": "Guided Stim: a HellForge code mod for HELLDIVERS 2. Source in src/.",
+  "url": "https://github.com/lankynibbs/guidedstim",
+  "gameplay": true,
+  "code": { "dll": "guidedstim.dll", "sdk": 16 }
+}
