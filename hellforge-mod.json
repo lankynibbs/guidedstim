@@ -2,8 +2,8 @@
   "format": 1,
   "id": "lankynibbs.guidedstim",
   "name": "Guided Stim",
-  "version": "0.1.0",
-  "description": "Guided Stim: a HellForge code mod for HELLDIVERS 2. Source in src/.",
+  "version": "0.2.0",
+  "description": "Guided Stim: P-11 Stim Pistol darts home in on your squadmates, fly faster and flatter, and landing one gives the medic a small heal of their own.",
   "url": "https://github.com/lankynibbs/guidedstim",
   "gameplay": true,
   "code": { "dll": "guidedstim.dll", "sdk": 16 }
